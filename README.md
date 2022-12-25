@@ -1,3 +1,2 @@
-# StartOneBitCode
 Calculadora de gorjetas criado no curso Start OneBitCode <br>
 Readme em construção...
