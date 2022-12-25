@@ -20,7 +20,7 @@
                     <p>Quanto ficou a conta?</p>
                 </label>
                 <p>
-                    R$ <input type="number" placeholder="0" name="bill" id="bill" class="formImput" required>
+                    R$ <input type="number" step="0.01" value="0.00" placeholder="0.00" name="bill" id="bill" class="formImput" required>
                 </p>
                 <label for="serviceQual">
                     <p>Como foi seu serviço?</p>
@@ -47,7 +47,7 @@
         <div id="totalTip">
             Gorjeta total:
             R$<span id="tip">0.00</span>
-            <p id="each">cada pessoa.</p>
+            <p id="each">para cada pessoa.</p>
         </div>
     </div>
     <script type="text/javascript" src="scripts.js"></script>
